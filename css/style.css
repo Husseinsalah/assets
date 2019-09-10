@@ -8836,6 +8836,8 @@ body:not(.device-touch) .social-icon i {
 .si-colored.si-pinterest { background-color: #C8232C !important; }
 .si-fivehundredpx:hover,
 .si-colored.si-fivehundredpx { background-color: #111 !important; }
+.si-whatsapp:hover,
+.si-colored.si-whatsapp { background-color: #25D366 !important; }
 
 
 /* Social Icons Text Color
@@ -8915,6 +8917,7 @@ body:not(.device-touch) .social-icon i {
 .si-text-color.si-appstore i { color: #000; }
 .si-text-color.si-pinterest i { color: #C8232C; }
 .si-text-color.si-fivehundredpx i { color: #111; }
+.si-text-color.si-whatsapp i { color: #25D366; }
 
 .si-text-color:hover { color: #FFF; }
 
