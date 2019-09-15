@@ -124,6 +124,12 @@ h1 {
     border-color: #551B74;
 }
 
+.btn-info:hover {
+    color: #fff;
+    background-color: #551B74;
+    border-color: #551B74;
+}
+
 .form-control-plaintext.border-bottom {
     border-bottom: 1px solid #551B74 !important;
 }
