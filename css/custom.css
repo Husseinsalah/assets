@@ -88,7 +88,7 @@ h1 {
 }
 
 
-.form-control {margin-top: 10px;margin-bottom: 10px;}
+.form-control {margin-bottom: 15px;}
 .input-group .form-control {margin: 0;}
 
 .text-info {
@@ -104,6 +104,28 @@ h1 {
     color: #fff;
     background-color: #763a96;
     border-color: #763a96;
+}
+
+
+.absLeft {
+	width: auto !important;
+	right: auto;
+	left: 0;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #763a96;
+    border-color: #763a96;
+}
+.btn-dark:hover {
+    color: #fff;
+    background-color: #551B74;
+    border-color: #551B74;
+}
+
+.form-control-plaintext.border-bottom {
+    border-bottom: 1px solid #551B74 !important;
 }
 
 /*================================================   MENU   ================================================*/
@@ -274,7 +296,7 @@ a.mdIcon i {position: relative;top: 3px;}
 
 
 .overlay-menu #primary-menu > ul {
-    background: rgba(42, 180, 202, 0.8);
+    background: rgba(118, 58, 150, 0.55); /*rgba(42, 180, 202, 0.8)*/
 }
 
 
@@ -321,7 +343,7 @@ a.mdIcon i {position: relative;top: 3px;}
 	border-bottom: 0;
 }	
 .side-panel-wrap .nav-tree li a i:first-child {
-    color: #61bfce; /*763a96*/
+    color: #9e42cf ; 
 }
 
 
@@ -526,6 +548,37 @@ a.mdIcon i {position: relative;top: 3px;}
 }
 
 
+.absImg-brw {
+    position: relative;
+    width: 100%;
+    left: auto;
+    transform: translateX(-25%);
+    z-index: 1;
+	bottom: -30px;
+}
+.absImg-brw img {
+    position: relative;
+    z-index: 1;
+}
+.absImg-brw img + img.absImg-cn-btm {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    left: 0;
+    width: 50%;
+    min-height: 68%;
+    top: 0;
+    z-index: 0;
+}
+
+.absImg-vid {
+    position: relative;
+    width: 100%;
+    left: auto;
+    z-index: 1;
+	bottom: 0;
+	margin: 0 auto;
+}
 
 .play-icon {
     position: absolute; /*relative*/   
@@ -3165,12 +3218,13 @@ padding-right:90px;
 
 .csSubscribe {
     background: #fff;
-    padding: 6px 12px;
+    padding: 3px 6px;
     border: 0;
     border-radius: 25px;
 }
 .csSubscribe .form-control {
     border: 0;
+	border-radius: 25px !important;
 }
 .csSubscribe .btn {
     border-radius: 25px !important;
