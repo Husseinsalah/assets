@@ -135,7 +135,7 @@
 .pricing--jinpa .pricing--item:nth-child(2) {
 	border-right: none;
 	border-left: none;
-	    background: #2bb4ca; /*2542A2*/
+	    background: #763a96; /*2542A2*/
     	color: #fff;
 }
 
@@ -165,25 +165,25 @@
 	height: 100px;
 	margin: 1.15em auto 1em;
 	border-radius: 50%;
-	background: #2bb4ca; /*ea716e*/
+	background: #763a96; /*ea716e*/
 	color: #FFF;
 	-webkit-transition: color 0.3s, background 0.3s;
 	transition: color 0.3s, background 0.3s;
 }
 
 .pricing--jinpa .pricing--item:first-child .pricing--price {
-	background: #2bb4ca; /*eac36e*/
+	background: #763a96; /*eac36e*/
 }
 
 .pricing--jinpa .pricing--item:nth-child(2) .pricing--price {
 	/*background: #eaa36e;*/
 	    background: #fff;
-    	color: #2bb4ca; /*2542A2*/
+    	color: #763a96; /*2542A2*/
 }
 
 .pricing--jinpa .pricing--item:hover .pricing--price {
 	color: #fff;
-	background: #2bb4ca; /*2542a1*/ /*#82C57E*/
+	background: #763a96; /*2542a1*/ /*#82C57E*/
 }
 
 .pricing--jinpa .pricing--sentence {
@@ -205,7 +205,7 @@
 	padding: 0.75em 2em;
 	opacity: 0;
 	color: #fff;
-	background: #2bb4ca; /*2542a1*/ /*#82C57E*/
+	background: #763a96; /*2542a1*/ /*#82C57E*/
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
 	-webkit-transform: translate3d(0, -15px, 0);
@@ -220,7 +220,7 @@
 
 .pricing--jinpa .pricing--action:hover,
 .pricing--jinpa .pricing--action:focus {
-	background: #6EA76B;
+	background: #551B74;
 }
 
 @media screen and (max-width: 60em) {
@@ -501,14 +501,14 @@
 	padding: 1em 2em;
 	color: #fff;
 	border-radius: 30px;
-	background: #2bb4ca; /*2542A2*/ /*E03E3E*/
+	background: #763a96; /*2542A2*/ /*E03E3E*/
 	-webkit-transition: background-color 0.3s;
 	transition: background-color 0.3s;
 }
 
 .pricing--rabten .pricing--action:hover,
 .pricing--rabten .pricing--action:focus {
-	background-color: #6EA76B; /*353184*/ /*C53737*/
+	background-color: #551B74; /*353184*/ /*C53737*/
 }
 
 @media screen and (max-width: 60em) {
@@ -561,7 +561,7 @@
 .pricing--pema .pricing--price {
 	font-size: 3em; /*5em*/
 	font-weight: 800;
-	color: #17a2b8;/*6ed19c*/
+	color: #763a96;/*6ed19c*/
 	position: relative;
 	z-index: 100;
 }
@@ -582,7 +582,7 @@
 	font-weight: bold;
 	margin: 0 0 1em 0;
 	padding: 0 0 0.5em;
-	color: #17a2b8;/*6ed19c*/
+	color: #763a96;/*6ed19c*/
 }
 
 .pricing--pema .pricing--feature-list {
@@ -602,7 +602,7 @@
 	padding: 1em 2em;
 	color: #fff;
 	border-radius: 5px;
-	background: #17a2b8;/*6ed19c*/
+	background: #763a96;/*6ed19c*/
 	-webkit-transition: background-color 0.3s;
 	transition: background-color 0.3s;
 	text-transform: uppercase;
@@ -611,7 +611,7 @@
 
 .pricing--pema .pricing--action:hover,
 .pricing--pema .pricing--action:focus {
-	background-color: #4F5F56;
+	background-color: #551B74;
 }
 
 /* karma */
