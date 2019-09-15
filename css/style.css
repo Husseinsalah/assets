@@ -554,7 +554,7 @@ span.middot {
 
 .section {
 	position: relative;
-	margin: 60px 0;
+	/*margin: 60px 0;*/
 	padding: 60px 0;
 	background-color: #F9F9F9;
 	overflow: hidden;
@@ -5980,7 +5980,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-overlay a {
 }
 
 .product-overlay a:hover {
-	background-color: #333;
+	background-color: #551B74; /*333*/
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -6647,7 +6647,7 @@ body:not(.device-touch) .button {
 }
 
 .button:hover {
-	background-color: #444;
+	background-color: #551B74; /*444*/
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -6779,7 +6779,7 @@ body:not(.device-touch) .button {
 .button.button-border.button-desc { line-height: 1; }
 
 .button.button-border:not(.button-fill):hover {
-	background-color: #444;
+	background-color: #551B74; /*444*/
 	color: #FFF;
 	border-color: transparent !important;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
@@ -7134,15 +7134,15 @@ body:not(.device-touch) .button.button-full strong {
 	border-color: #774F38;
 }
 
-.button-aqua { background-color: #40C0CB; }
+.button-aqua { background-color: #551B74; } /*40C0CB*/
 .button-3d.button-aqua:hover,
 .button-reveal.button-aqua:hover,
 .button-border.button-aqua:hover,
-.button-border.button-aqua.button-fill:before { background-color: #40C0CB !important; }
+.button-border.button-aqua.button-fill:before { background-color: #551B74 !important; } /*40C0CB*/
 
 .button-border.button-aqua {
-	color: #40C0CB;
-	border-color: #40C0CB;
+	color: #551B74; /*40C0CB*/
+	border-color: #551B74; /*40C0CB*/
 }
 
 .button-lime { background-color: #AEE239; }
@@ -7955,7 +7955,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .fbox-effect .fbox-icon i:hover,
 .fbox-effect:hover .fbox-icon i {
-	background-color: #333;
+	background-color: #551B74; /*333*/
 	color: #FFF;
 }
 
@@ -11329,7 +11329,7 @@ input[type=checkbox]:not(:checked) + label.error { display: block !important; }
 /* Heading Block - with Subtitle
 -----------------------------------------------------------------*/
 
-.heading-block { margin-bottom: 50px; }
+.heading-block { margin-bottom: 20px; } /*50px*/
 
 .heading-block h1,
 .heading-block h2,
