@@ -1103,7 +1103,7 @@ body #side-panel.dark #side-panel-trigger-close a {
 .dark .widget_recent_entries li a:hover,
 .dark .widget_categories li a:hover,
 .dark .widget_pages li a:hover,
-.dark .widget_rss li a:hover { color: #AAA; }
+.dark .widget_rss li a:hover { color: #ccc; }/*AAA*/
 
 
 .dark .nav-tree li a { color: #BBB; }
