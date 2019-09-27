@@ -1225,7 +1225,6 @@
 	}
 	
 	
-	
 
 }
 
@@ -1735,10 +1734,18 @@ div[class*=col-]:nth-of-type(6n+0) .finan-hgh:after, .finan-hgh.lastBlk:after {
 		 padding: 0;  
 	}
 	
-	.play-icon {bottom: 0;}
+	.play-icon {
+		bottom: -15px; /*0*/
+    	top: auto;
+	}
 	
 	.rtl .tstBox01 .tstBoxText {position: static;}
 	.tstBox01 .tstBoxText p {font-size: 14px;}
+	
+	.contact-widget {
+		width: 100%;
+		min-height: 350px;
+	}
 	
 
 }
@@ -1849,6 +1856,15 @@ div[class*=col-]:nth-of-type(6n+0) .finan-hgh:after, .finan-hgh.lastBlk:after {
 		height: 187px;
 		margin: 19px 0 0 53px;
 	}
+	
+	
+	.absImg-btm + img {
+		bottom: 20px;
+		left: -24%;
+		width: 80%;
+	}
+	
+	
 
 }
 
