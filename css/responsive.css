@@ -2,6 +2,19 @@
 	Responsive CSS
 -----------------------------------------------------------------*/
 
+@media (max-width: 1367px) {
+	
+	.absImg-btm-lab {
+		max-width: 500px;
+	}
+	.absImg-brw.dsk {
+		width: 85%;
+		transform: translateX(-35%);
+		bottom: 33%;
+	}
+
+}
+
 @media (max-width: 1280px) {
 	
 	.absImg.absImg-org + img {
@@ -59,6 +72,21 @@
 		bottom: 25%;
 	}
 
+
+}
+
+
+@media (max-width: 1023.98px) {
+
+	
+	.sk-bg {
+		transform: rotate(35deg);
+		margin-top: -55%;
+	}
+	.absImg-brw.dsk.prsImg img + img.absImg-cn-btm {
+		transform: translateX(-50%) translateY(-50%) perspective(40em) rotateX(-30deg) scaleX(0.8) scaleY(1.15);
+	}
+	
 
 }
 
@@ -196,7 +224,8 @@
 	.bnews-slider { width: 817px; }
 
 	.landing-form-overlay { /*bottom: -142px;*/ }
-
+	
+	
 }
 
 
@@ -283,6 +312,9 @@
 		background-color: #763a96; /*2542a1*/ /*333*/
 		border-bottom: 1px solid rgba(0,0,0,0.1);
 	}
+	
+	#header.dark #primary-menu ul ul li > a {color: #ccc !important;}
+	
 
 	#header.transparent-header.floating-header { margin-top: 0; }
 
@@ -1687,6 +1719,10 @@ div[class*=col-]:nth-of-type(6n+0) .finan-hgh:after, .finan-hgh.lastBlk:after {
 		bottom: 15%;
 	}
 	
+	.absImg-btm-lab .absImg {position: static;}
+	.tpInfoTxt {transform: none;}
+	
+	
 	#map-overlay #google-map.gmResponsive {
 		position: relative; 
 		height: 100%;
@@ -1745,6 +1781,40 @@ div[class*=col-]:nth-of-type(6n+0) .finan-hgh:after, .finan-hgh.lastBlk:after {
 	.contact-widget {
 		width: 100%;
 		min-height: 350px;
+	}
+	
+	.absImg-brw.dsk {
+		width: 150%;
+		transform: translateX(-8%);
+		bottom: 0;
+	}
+	.absImg-brw.dsk + .play-icon {
+		top: 50%;
+		transform: translateY(-100%);
+	}
+	
+	.slider-btm-sec {transform: none;}
+	
+	.fontXL {
+		font-size: 2rem !important;
+	}
+	
+	#slider .toppadding-lg {padding-top: 20px;}
+	
+	.introLeftBox {
+		position: relative;
+		left: auto;
+		width: 90%;
+		margin: 0 auto;
+		transform: translateY(-10%);
+	}
+	
+	.wideFormStyle01 {
+		padding: 30px;
+	}
+	.wideFormStyle01 .border-left {
+		border-left: 0 !important;
+		border-bottom: 1px solid #dee2e6 !important;
 	}
 	
 
@@ -1862,6 +1932,13 @@ div[class*=col-]:nth-of-type(6n+0) .finan-hgh:after, .finan-hgh.lastBlk:after {
 		bottom: 20px;
 		left: -24%;
 		width: 80%;
+	}
+	
+	.sldBtmInfo {
+		position: relative;
+		bottom: auto;
+		top: -150px;
+    	min-height: 450px;
 	}
 	
 	
@@ -2077,6 +2154,13 @@ div[class*=col-]:nth-of-type(6n+0) .finan-hgh:after, .finan-hgh.lastBlk:after {
 .owl-carousel.owl-theme.owl-theme01 .owl-item img {
     height: 220px;
 }
+	
+	.sldBtmInfo {
+		position: relative;
+		bottom: auto;
+		top: -250px;
+    	min-height: 300px;
+	}
 	
 	
 
