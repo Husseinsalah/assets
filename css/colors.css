@@ -5,11 +5,11 @@
 -----------------------------------------------------------------*/
 
 
-::selection { background: #1ABC9C; }
+::selection { background: #763a96; }
 
-::-moz-selection { background: #1ABC9C; }
+::-moz-selection { background: #763a96; }
 
-::-webkit-selection { background: #1ABC9C; }
+::-webkit-selection { background: #763a96; }
 
 
 a,
@@ -57,7 +57,7 @@ h6 > span:not(.nocolor):not(.badge),
 .btn-link,
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider,
-.clear-rating-active:hover { color: #1ABC9C; }
+.clear-rating-active:hover { color: #763a96; }
 
 .color,
 .top-cart-item-desc a:hover,
@@ -72,7 +72,7 @@ h6 > span:not(.nocolor):not(.badge),
 .overlay-menu #primary-menu.dark > ul > li.current > a,
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
-.nav-tree li.active > a { color: #1ABC9C !important; }
+.nav-tree li.active > a { color: #763a96 !important; }
 
 #primary-menu.style-3 > ul > li.current > a,
 #primary-menu.sub-title > ul > li:hover > a,
@@ -130,7 +130,7 @@ input.switch-toggle-flat:checked + label:after,
 input.switch-toggle-round:checked + label:before,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-themecolor,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-themecolor,
-.entry:after { background-color: #1ABC9C; }
+.entry:after { background-color: #763a96; }
 
 .bgcolor,
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover,
@@ -141,7 +141,7 @@ input.switch-toggle-round:checked + label:before,
 .owl-carousel .owl-nav [class*=owl-]:hover,
 .page-item.active .page-link,
 .page-link:hover,
-.page-link:focus { background-color: #1ABC9C !important; }
+.page-link:focus { background-color: #763a96 !important; }
 
 #primary-menu.style-4 > ul > li:hover > a,
 #primary-menu.style-4 > ul > li.current > a,
@@ -156,7 +156,7 @@ input.switch-toggle-round:checked + label:before,
 .dark .post-timeline .entry:hover .entry-timeline,
 .dark .post-timeline .entry:hover .timeline-divider,
 .dark .cart-product-thumbnail img:hover,
-.heading-block.border-color:after { border-color: #1ABC9C; }
+.heading-block.border-color:after { border-color: #763a96; }
 
 .top-links ul ul,
 .top-links ul div.top-link-section,
@@ -176,12 +176,12 @@ input.switch-toggle-round:checked + label:before,
 .tabs.tabs-tb ul.tab-nav li.ui-tabs-active a,
 .irs-from:after,
 .irs-single:after,
-.irs-to:after { border-top-color: #1ABC9C; }
+.irs-to:after { border-top-color: #763a96; }
 
 #page-menu.dots-menu nav li div:after,
-.title-block { border-left-color: #1ABC9C; }
+.title-block { border-left-color: #763a96; }
 
-.title-block-right { border-right-color: #1ABC9C; }
+.title-block-right { border-right-color: #763a96; }
 
 .fancy-title.title-bottom-border h1,
 .fancy-title.title-bottom-border h2,
@@ -190,7 +190,7 @@ input.switch-toggle-round:checked + label:before,
 .fancy-title.title-bottom-border h5,
 .fancy-title.title-bottom-border h6,
 .more-link,
-.tabs.tabs-bb ul.tab-nav li.ui-tabs-active a { border-bottom-color: #1ABC9C; }
+.tabs.tabs-bb ul.tab-nav li.ui-tabs-active a { border-bottom-color: #763a96; }
 
 .border-color,
 .process-steps li.active a,
@@ -198,15 +198,134 @@ input.switch-toggle-round:checked + label:before,
 .tagcloud a:hover,
 .page-item.active .page-link,
 .page-link:hover,
-.page-link:focus { border-color: #1ABC9C !important; }
+.page-link:focus { border-color: #763a96 !important; }
 
 .fbox-effect.fbox-dark .fbox-icon i:after,
-.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px #1ABC9C; }
+.dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px #763a96; }
 
 .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
 .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i,
 .dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i:hover,
-.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #1ABC9C; }
+.dark .fbox-border.fbox-effect.fbox-dark:hover .fbox-icon i { box-shadow: 0 0 0 1px #763a96; }
+
+
+.bg-info, 
+.btn-info, 
+.badge-info, 
+.btn-dark, 
+.dark #header.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark), 
+.dark #header.sticky-header.transparent-header #header-wrap:not(.not-dark), 
+.dark #header.transparent-header.floating-header .container, 
+.dark #header.transparent-header.floating-header.sticky-header .container, 
+#header.dark.sticky-header:not(.transparent-header) #header-wrap:not(.not-dark), 
+#header.dark.sticky-header.transparent-header #header-wrap:not(.not-dark), 
+#header.dark.transparent-header.floating-header .container, 
+#header.dark.transparent-header.floating-header.sticky-header .container, 
+.dark .responsive-sticky-header #header-wrap, 
+.responsive-sticky-header.dark #header-wrap, 
+.grdBg, 
+.fbox-border.fbox-effect .fbox-icon i:after, 
+.tabs.tabs-alt.tabs-stl01 ul.tab-nav li.ui-tabs-active a, 
+.tabs.tabs-alt.tabs-stl02 ul.tab-nav li.ui-tabs-active a, 
+.fbox-border.fbox-effect:hover .fbox-icon h2:after, 
+.arwStyle01.arwStyleSolid .slider-arrow-left, .arwStyle01.arwStyleSolid .slider-arrow-right, .arwStyle01.arwStyleSolid .flex-prev, .arwStyle01.arwStyleSolid .flex-next, .arwStyle01.arwStyleSolid .slider-arrow-top-sm, .arwStyle01.arwStyleSolid .slider-arrow-bottom-sm, 
+.arwStyle01 .slider-arrow-left:hover, .arwStyle01 .slider-arrow-right:hover, .arwStyle01 .flex-prev:hover, .arwStyle01 .flex-next:hover, .arwStyle01 .slider-arrow-top-sm:hover, .arwStyle01 .slider-arrow-bottom-sm:hover, 
+.tabs.tabs-bb2.tabs-lg ul.tab-nav li.ui-tabs-active a .fbox-effect .fbox-icon i, 
+.sideTabsItems .list-group-item.active:before, 
+.sideTabsItems .list-group-item.active .fbox-border.fbox-effect .fbox-icon i:after, 
+.timeline > li > .timeline-badge, 
+.arwStyle01 .owl-prev:hover, .arwStyle01 .owl-next:hover, 
+.team-overlay:before, 
+.portfolioFilterStyle01 li.activeFilter a, 
+.tstBox01 .tstBoxText .tstBoxIcon, 
+.tstBox01 .tstBoxName::before {
+    background-color: #763a96 !important;
+}
+
+
+.process-steps.process-steps-stl02 li:after, 
+.togglet.toggleta .tfNum, .acctitle.acctitlec .tfNum, 
+.tfContentBg .togglec, .acctitle.acctitlec + .acc_content p, 
+.rdIcon, 
+.lfSideBox .lfSideBox-title {
+	background: #763a96;
+}
+
+.btn-info, 
+.btn-dark, 
+.sideTabsItems .list-group-item.active, 
+blockquote.color, 
+.sticky-header .button.button-border.button-light {
+    border-color: #763a96 !important;
+}
+
+.button-white, 
+.bg-info, 
+.badge-info,  
+.dark #primary-menu:not(.not-dark) ul ul li > a, #primary-menu.dark ul ul li > a, 
+.button-vlt.button-border, 
+.feature-box.fbox-border.fbox-trans .fbox-icon i, .feature-box.fbox-border.fbox-trans .fbox-icon img, 
+.process-steps.process-steps-stl .i-bordered, 
+.process-steps.process-steps-stl .i-bordered:hover, 
+.process-steps.process-steps-stl01 .i-bordered, 
+.process-steps.process-steps-stl01 .i-bordered:hover, 
+.process-steps.process-steps-stl02 .i-plain i, 
+.arwStyle01 .slider-arrow-left i, .arwStyle01 .slider-arrow-right i, .arwStyle01 .flex-prev i, .arwStyle01 .flex-next i, .arwStyle01 .slider-arrow-top-sm i, .arwStyle01 .slider-arrow-bottom-sm i, 
+.testimonial.trans:not(.testimonial06) .flex-prev:hover i, .testimonial.trans:not(.testimonial06) .flex-next:hover i, 
+.slider-arrow-left i, .slider-arrow-right i, .flex-prev i, .flex-next i, .slider-arrow-top-sm i, .slider-arrow-bottom-sm i, 
+.tabs.tabs-bb2.tabs-lg ul.tab-nav li.ui-tabs-active a .fbox-effect h3, 
+.sideTabsItems .list-group-item.active, 
+.sideTabsItems .list-group-item.active .feature-box.fbox-border h3, 
+.arwStyle01 .owl-prev i, .arwStyle01 .owl-next i, 
+.owl-carousel.arwStyle01:not(.arwDfault) .owl-nav [class*=owl-], 
+.portfolioFilterStyle02 li.activeFilter a, 
+.tstBsCarousel .tstBox02 .fa, 
+.countdownStyle02  .countdown-amount, .countdownStyle02 .rounded-skill, 
+.sticky-header .button.button-border.button-light, 
+.sticky-header .button, 
+.style-ecommerce #top-search:hover > a,
+.style-ecommerce #top-cart:hover > a,
+.style-ecommerce #top-cart.top-cart-open > a,
+.style-ecommerce #side-panel-trigger:hover > a,
+.style-ecommerce #top-account:hover > a, 
+.button.button-xlarge + .btn.btn-link:hover {
+    color: #763a96 !important;
+}
+
+
+.btn-dark:hover, 
+.btn-info:hover, 
+#tst2Carousel .carousel-indicators .active {
+    background-color: #551B74;
+}
+
+.btn-dark:hover, 
+.btn-info:hover, 
+#tst2Carousel .carousel-indicators .active {
+    border-color: #551B74;
+}
+
+.button-vlt.btn-sk
+{
+	background: #551B74;
+}
+
+.form-control-plaintext.border-bottom {
+    border-bottom: 1px solid #551B74 !important;
+}
+
+
+.introGrd01 {
+	background: rgba(142,63,184,1);
+	background: -moz-linear-gradient(-45deg, rgba(142,63,184,1) 0%, rgba(96,34,130,1) 48%, rgba(85,27,116,1) 60%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(142,63,184,1)), color-stop(48%, rgba(96,34,130,1)), color-stop(60%, rgba(85,27,116,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(142,63,184,1) 0%, rgba(96,34,130,1) 48%, rgba(85,27,116,1) 60%);
+	background: -o-linear-gradient(-45deg, rgba(142,63,184,1) 0%, rgba(96,34,130,1) 48%, rgba(85,27,116,1) 60%);
+	background: -ms-linear-gradient(-45deg, rgba(142,63,184,1) 0%, rgba(96,34,130,1) 48%, rgba(85,27,116,1) 60%);
+	background: linear-gradient(135deg, rgba(142,63,184,1) 0%, rgba(96,34,130,1) 48%, rgba(85,27,116,1) 60%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e3fb8', endColorstr='#551b74', GradientType=1 );
+}
+
 
 
 @media only screen and (max-width: 991px) {
@@ -217,15 +336,15 @@ input.switch-toggle-round:checked + label:before,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a,
 	#primary-menu ul ul li:hover > a,
 	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title:hover > a,
-	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: #1ABC9C !important; }
+	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: #763a96 !important; }
 
-	#page-menu nav { background-color: #1ABC9C; }
+	#page-menu nav { background-color: #763a96; }
 
 }
 
 
 @media only screen and (max-width: 767px) {
 
-	.portfolio-filter li a:hover { color: #1ABC9C; }
+	.portfolio-filter li a:hover { color: #763a96; }
 
 }
