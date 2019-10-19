@@ -3390,7 +3390,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 -----------------------------------------------------------------*/
 
 #page-title.page-title-dark {
-	background-color: #333;
+	background-color: #763a96; /*333*/
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.15) !important;
 	border-bottom: none;
 }
