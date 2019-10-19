@@ -71,6 +71,10 @@
 		left: 40%;
 		bottom: 25%;
 	}
+	
+	.feature-box.rdFeature {
+		transform: none;
+	}
 
 
 }
@@ -1815,6 +1819,12 @@ div[class*=col-]:nth-of-type(6n+0) .finan-hgh:after, .finan-hgh.lastBlk:after {
 	.wideFormStyle01 .border-left {
 		border-left: 0 !important;
 		border-bottom: 1px solid #dee2e6 !important;
+	}
+	
+	
+	.rdTitle {
+		transform: none;
+	    margin-bottom: 25px;
 	}
 	
 
