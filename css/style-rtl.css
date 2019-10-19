@@ -1287,8 +1287,8 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-1.portfolio-f
 
 .post-grid .entry {
 	float: right;
-	margin-left: 28px;
-	margin-right: 0;
+	padding-left: 28px;
+	padding-right: 0;
 }
 
 /* Blog - Grid - 3 Columns
@@ -1300,8 +1300,8 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-1.portfolio-f
 }
 
 .post-grid.grid-3 .entry {
-	margin-left: 30px;
-	margin-right: 0;
+	padding-left: 30px;
+	padding-right: 0;
 }
 
 /* Blog - Grid - 3 Columns - Sidebar
@@ -1313,8 +1313,8 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-1.portfolio-f
 }
 
 .postcontent .post-grid.grid-3 .entry {
-	margin-left: 25px;
-	margin-right: 0;
+	padding-left: 25px;
+	padding-right: 0;
 }
 
 /* Blog - Grid - 2 Columns
@@ -1326,8 +1326,8 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .portfolio-1.portfolio-f
 }
 
 .post-grid.grid-2 .entry {
-	margin-left: 40px;
-	margin-right: 0;
+	padding-left: 40px;
+	padding-right: 0;
 }
 
 
